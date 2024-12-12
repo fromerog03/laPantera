@@ -1,0 +1,157 @@
+/* Aquí se encientra el CSS de las paginas siguientes : Pantera.html */
+
+body{
+    background-color: rgb(204, 202, 229);
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+
+h1{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    padding: 30px;
+    text-align: center;
+    font-family: 'Monserrat',sans-serif;
+
+}
+
+.menu ul{
+    text-align: center;
+    background-color: rgb(47, 46, 46);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius:12px ;
+    color: white;
+    list-style: none;
+
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    
+}
+
+.menu ul li a:hover {
+    background-color: rgb(139, 129, 133);
+    transform: scale(1.1);
+    transition: background-color 0.3s, transform 0.2s;
+    border-radius: 5px;
+    
+}
+
+.datos ul{
+    text-align: left;
+    background-color: rgb(202, 175, 202);
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 12px ;
+    width: 300px;
+    color: black;
+
+}
+
+.letrero h2{
+    color: white;
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+    width: 500px;
+    border-radius: 10px ;
+    text-align: center;
+
+}
+
+h2{
+    color: white;
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+    width: 500px;
+    border-radius: 10px ;
+    border-color: cadetblue;
+    border-style: solid;
+}
+
+.img1 {
+    display: flex;
+    width: 267px;
+    text-align-last: right;
+    border-style: solid;
+    border-color: #ada5e3;
+}
+
+p {
+    line-height: 1.6;
+    margin: 20px ;
+    font-size: larger;
+    width: 1500px;
+    background-color: rgb(239, 232, 232);
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+
+.audios p{
+    background-color:#c1c3a7;
+    padding: 15px;
+    width: 250px;
+    text-align:start;
+    border: 5px;
+    border-color: rgb(210, 207, 115);
+    border-style: solid;
+    font-weight: bolder;
+}
+
+audio::-webkit-media-controls-panel{
+    background-color: rgb(204, 232, 198);
+
+}
+
+audio::-webkit-media-controls-play-button{
+    background-color: rgb(198, 215, 177);
+    border-radius: 25px;
+
+}
+
+.coros p{
+    background-color: rgb(241, 240, 240);
+    color: rgb(38, 36, 36);
+    padding: 20px 20px;
+    font-style: italic;
+    width: 400px;
+    border-radius:12px ;
+    border-bottom: 10px;
+    border-style: groove;
+    border-color: black;
+
+}
+
+.coros p:hover{
+    background-color: rgb(216, 195, 203);
+    transform: scale(1.1);
+}
+
+.musica {
+    column-count: 3;
+    text-align: justify;
+    column-gap: 100px;
+    column-gap: 50px;
+}
+
+.audios, .coros {
+    flex: 1; 
+    margin: 10px;
+}
+
+video {
+    width: 40%;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+}
