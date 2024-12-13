@@ -155,3 +155,14 @@ div img {
     box-shadow: 4px 4px 10px 2px rgba(46, 31, 31, 0.5);
     transform: translate(75%, 0%);
 }
+
+.audiosdescarga p{
+    background-color:#a7c3ac;
+    padding: 15px;
+    width: 250px;
+    text-align:start;
+    border: 5px;
+    border-color: rgb(210, 207, 115);
+    border-style: solid;
+    font-weight: bolder;
+}
